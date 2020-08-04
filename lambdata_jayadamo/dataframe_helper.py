@@ -9,17 +9,21 @@ import pandas as pd
 import random
 
 
-''' 1) A function to find missing values in a dataframe '''
+''' 
+1) A function to find missing values in a dataframe 
+'''
 
 # defining report_missing_values
 def report_missing_values(df):
-    pd.isnull = missing_values
+    report_missing_values = pd.isnull  
     
     # Show missing values
-    print(f'Here are the missing values:', missing_values)
+    print(f'Here are the missing values:', report_missing_values)
 
 
-''' 2) A function to add 2 numbers by user input '''
+''' 
+2) A function to add 2 numbers by user input 
+'''
 
 # Define 2 possible values
 num1 = input('Enter first number: ')
@@ -32,7 +36,9 @@ sum = float(num1) + float(num2)
 print('The sum of {0} and {1} is {2}'.format(num1, num2, sum))
 
 
-''' 3) Function to generate a random number between 0 and 9 '''
+''' 
+3) Function to generate a random number between 0 and 9 
+'''
 
 # Shows random number
 print(random.randint(0,9))

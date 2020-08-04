@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 ''' 
-A simple module 
+example of a module 
 '''
 
 x = 2

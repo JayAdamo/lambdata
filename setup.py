@@ -5,10 +5,12 @@ lambdata - a collection of Data Science helper functions
 """
 
 import setuptools
+
 REQUIRED = [
     "numpy",
     "pandas"
 ]
+
 with open("README.md", "r") as file:
     LONG_DESCRIPTION = file.read()
 setuptools.setup(
