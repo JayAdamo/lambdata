@@ -4,7 +4,7 @@ Compliment: Liked the simplicity of the code in the helper_function.py. The idea
 
 Compliment: Consistent explanation of what the two functions do inside the triple quotes. Any subsequent user will be able to fully and clearly understand what each function does before delving into the actual code.
 
-Compliment: The concept of classes and objects is often very elusive and often difficult to understand. A clear explanation of the creation of your 'Park' class which instantiates (represents by an instance) 'song' objects. This resonates extremely well with your passion for and expertise in music.
+Compliment: The concept of classes and objects is often very elusive and often difficult to understand. A clear explanation of the creation of your 'Park' class which instantiates (represents by an instance) 'Park' objects. 
 
 Potential Area of Development:  Repetition of '''
 1) A function to find missing values in a dataframe
