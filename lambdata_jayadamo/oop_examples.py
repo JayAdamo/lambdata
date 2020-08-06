@@ -2,7 +2,7 @@
 
 ''' Examples of Object Orientated Programming '''
 
-import pandas as pandas
+import pandas as pd
 
 class MyDataFrame(pd.DataFrame):
     def num_cells(self):
@@ -21,13 +21,11 @@ class Complex:
         return '({}, {})'.format(self.r, self.i)
 
 class SocialMediaUser:
-    def __init__(self, name):
+    def __init__(self, name, upvotes=0):
         self.name = name
-        self.upvotes = 0
-    
+        self.upvotes = upvotes
     def receive_upvote(self):
         self.upvotes += 1
-    
     def is_popular(self):
         return self.upvotes > 100
 
@@ -76,5 +74,5 @@ EXAMPLE OF OVERIDING AND THE CHILD CLASS
 'cereal'
 >>> tony.num_stripes
 37
-""""
+"""
 
